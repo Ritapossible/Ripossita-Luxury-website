@@ -1,0 +1,519 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #777;
+}
+/* for About page */
+.main-header{
+    background-image: url("Background.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(90, 66, 35);
+    height: 350px;
+    opacity: 0.9;
+}
+.nav ul {
+    margin: 0;   
+}
+.nav li {
+   display: inline; 
+   padding: 0;  
+}
+.nav a {
+    display: inline-block;
+    padding: .8em;
+    color: white; 
+    text-decoration: none;  
+}
+
+    
+.nav a:hover {
+    background-color: rgb(225, 225, 225, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+}
+   
+.fashion-name{
+    text-align: center;
+    margin: 0;
+    font-size: 6em;
+    font-weight: normal;
+    color: rgb(230, 216, 198);
+    font-family: 'Great Vibes', cursive;
+      
+}
+.fashion-bottomname{
+    font-size: 3em;
+}
+.fashion-nameZ{
+    margin-top: 60px;
+}
+.fashion-nameH{
+    margin-top: 30px;
+}
+
+
+.content-section{
+    margin: 1em;
+
+}
+
+.section{
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    font-family:'Signika Negative', sans-serif;
+    color: #333; 
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.about-image{
+    margin: 2em;
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.container-d{
+    margin-top: 30px;
+}
+
+
+.founder-header{
+margin-top: 30px;
+text-align: center;
+font-weight: lighter;
+color: #333;
+
+
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+.founder-image{
+    height: 300px;
+    width: 200px;
+    margin: 1em;
+    margin-left: 385px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+}
+@media (min-width: 1280px) {
+    .founder-image{
+        height: 300px;
+        width: 200px;
+        margin: 1em;
+        margin-left: 540px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        
+    }
+
+}
+
+.founder-about{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    
+}
+      
+.main-footer{
+    background-color: rgb(163, 128, 85); 
+    padding: 1em 0;
+    align-items: flex-end;
+}
+.footer-image{
+ width: 30px;
+ height: 30px;
+ padding: 0;
+
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+    
+}
+.footer-nav{
+    padding: 0 .5em;
+    margin: 0;
+    
+}
+.change-color1{
+    filter: hue-rotate(60deg) saturate(1.5) brightness(0.8);
+}
+.change-color{
+    filter: grayscale(100%) sepia(100%) hue-rotate(15deg) saturate(1.5) brightness(0.8);
+}
+    
+.footer-nav li{
+   padding: 1em;
+   display: inline;
+     
+}
+.footer-nav li:hover{
+    background-color: rgb(225, 225, 225, .3);
+ }
+
+.inc-footer{
+    color: black;
+    padding: 2em;
+}
+
+/* for Home page */
+ 
+.btn-header{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.6em;
+    cursor: pointer;
+    margin: .3em;
+    color: white;
+    font-size: medium;
+    border: 2px solid bisque;
+    background-color: rgb(225, 225, 225, .3);
+    border-radius: 0;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 15px; 
+}
+
+.btn-header:hover{
+    background-color: rgba(63, 22, 22, 0.3);
+}
+
+.brand{
+    margin-left: 6.3em;
+    margin-top: 1.5em;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 7, 17);
+}
+
+
+.image{
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    
+}
+
+.location{
+    text-align: center; 
+    font-weight: lighter;
+    color: rgb(17, 15, 15);
+    background-color: rgb(236, 193, 129);
+    padding: 1.5em;
+
+}
+
+.Best-sell{
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 2em;
+    color: rgb(79, 79, 90);
+}
+.hcontainer{
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0 1.em;
+}
+    
+
+.image-des{
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(79, 79, 90);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.value{
+    color: rgb(79, 79, 90);
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+    padding: .2em;
+}
+
+.all-home-items{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.hcontainer img{
+    flex-grow: 0;
+}
+.container-story{
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0 7em;
+    text-align: center;
+    margin-top: 2em;
+
+}
+.story{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(79, 79, 90);
+    font-weight: light;
+} 
+.story-explain{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(79, 79, 90);
+    font-weight: lighter;
+}
+.story-button a {
+    display:inline ;
+    padding: .7em;
+    text-align: center;
+    text-decoration: none;  
+}
+
+ 
+.story-button{
+padding: .0 ;
+width: 150px;
+height: 50px;
+cursor: pointer;
+margin: .3em ;
+color: white;
+font-size: medium;
+border: 2px solid rgb(131, 103, 68);
+background-color:  rgb(7, 7, 17);
+border-radius: 0;
+font-weight: lighter;
+padding-left: 1.5em;
+padding-right: 1.5em;
+}
+
+.story-button:hover{
+background-color: rgb(65, 18, 18);
+}  
+
+.magazine{
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.magazine-img{
+    height: 200px;
+    width: 180px;
+    padding: 10px;
+    margin-top: 20px;
+} 
+.magazine-type{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: .9em;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(167, 116, 51);
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 75, 75);
+}
+.magazine-header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 7, 17);
+}
+.bespoke-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 5em;
+    text-align: center;
+    margin-top: 3em;
+}
+.bespoke-header{
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    color:  rgb(7, 7, 17);
+    text-decoration: underline;
+}
+.gems{
+    color:rgb(7, 7, 17);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 1.5em;
+
+} 
+
+
+.bespoke-img{
+    height: 150px;
+    width: 130px;
+    padding: auto;
+    margin: auto;  
+}
+
+/* for store page */
+
+.product-container{
+    max-width: 530px;
+    margin: auto;
+    padding:  auto;
+    
+}
+.product{
+    height: 180px;
+    width: 170px;
+    padding: 1.3em;
+    margin: auto; 
+    
+}
+.all-product-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-header{
+    text-align: center;
+    padding: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:  rgb(7, 7, 17);
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 103, 68);
+}
+
+.product-des{
+    text-align: center;
+}
+
+.product-price{
+    padding-bottom: .5em;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.product-btu{
+    padding: .5em;
+    margin-bottom: 3.5em;
+    color: rgb(182, 171, 171);
+    border: 3px solid rgb(131, 103, 68);
+    background-color:  rgb(7, 7, 17);
+    cursor: pointer;
+}
+.product-btu:hover{
+    background-color: rgb(54, 25, 25);
+}
+.product-name{
+    color: rgb(53, 53, 71);
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* for watch in store section  */
+
+.watch-container{
+    max-width: 430px;
+    margin: auto;
+    padding:  auto;  
+}
+.watch-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+}
+.watch-header{
+    text-align: center;
+    padding-top: 2em;
+}
+.watch-main-header{
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: rgb(168, 113, 30);
+    padding: .7em;
+}
+.watch-des{
+    color: rgb(50, 50, 66);
+    padding-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.watch-name{
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: lighter;
+}
+
+ 
+.watch-img{
+    height: 180px;
+    width: 170px;
+    padding: .5em;
+    margin: auto; 
+    border: .5PX solid rgb(131, 103, 68);
+}
+
+.news{
+    color: rgb(18, 18, 19);
+    font-family: 'Times New Roman', Times, serif;
+}
+.letter{
+    color: rgb(18, 18, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: .5em;
+    padding-bottom:1em ;
+}
+.email{
+    color: rgb(18, 18, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.email-input{
+    border: 2px solid rgb(236, 193, 129);
+    padding: .7em;
+    cursor: pointer;
+}
+.news-btn{
+    color:rgb(15, 15, 15) ;
+    padding: .7em;
+    cursor: pointer;
+    background-color: rgb(236, 193, 129);
+    border: 2px solid white;
+}
+.news-btn:hover{
+    background-color: rgb(54, 25, 25);
+}
+
+
+.news-letter{
+    margin-top: 2em;
+    padding-left: 4em;
+}
+
