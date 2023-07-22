@@ -13,7 +13,7 @@ html, body{
 }
 /* for About page */
 .main-header{
-    background-image: url("img/Background.jpeg");
+    background-image: url("img/ring7.jpeg");
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgb(90, 66, 35);
