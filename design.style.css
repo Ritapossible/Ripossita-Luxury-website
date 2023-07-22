@@ -12,7 +12,7 @@ body{
     
 }
 .design-header{
-    background-image: url("design-cover.png");
+    background-image: url("img/design-cover.png");
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgb(90, 66, 35);
